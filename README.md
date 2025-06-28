@@ -1,6 +1,3 @@
-Absolutely, Jubi! Below is a **very detailed and well-structured README.md** file for your **FlickFinder** project, written in clean **Markdown format**, ready to copy-paste into GitHub:
-
-````markdown
 # 🎬 FlickFinder: Movie Recommendation System Using NLP & TMDB API
 
 FlickFinder is a content-based movie recommendation system built using NLP techniques and cosine similarity. It suggests movies similar to a selected one based on cast, crew, genres, keywords, and movie overviews. The system integrates the TMDB API to display detailed information and posters of the searched movie and its recommendations. The project also features a user-friendly Streamlit web application.
