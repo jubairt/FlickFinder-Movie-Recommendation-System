@@ -9,7 +9,7 @@ movies = pd.DataFrame(movie_dict)
 similarity = pkl.load(open('Artifacts/similsrity.pkl', 'rb'))
 
 # TMDB API Key
-TMDB_API_KEY = '5af237a75d2d1cb019386db2eb1da0fe'  # ⬅️ Replace this with your actual API key
+TMDB_API_KEY = ''  # ⬅️ Replace this with your actual API key
 
 # Streamlit Title
 st.title('🎥 FlickFinder: Discover your next favorite movie')
