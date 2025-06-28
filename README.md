@@ -1,6 +1,8 @@
 # 🎬 FlickFinder: Movie Recommendation System Using NLP & TMDB API
 
-FlickFinder is a content-based movie recommendation system built using NLP techniques and cosine similarity. It suggests movies similar to a selected one based on cast, crew, genres, keywords, and movie overviews. The system integrates the TMDB API to display detailed information and posters of the searched movie and its recommendations. The project also features a user-friendly Streamlit web application.
+FlickFinder is a content-based movie recommendation system built using NLP techniques and cosine similarity. It suggests movies similar to a selected one based on cast, crew, genres, keywords, and movie overviews. The system integrates the TMDB API to display detailed information and posters of the searched movie. The project also features a user-friendly Streamlit web application.
+
+![FlickFinder Screenshot](Web_Interface.png)
 
 ---
 
@@ -104,60 +106,14 @@ TMDB_API_KEY = 'your_api_key_here'
 
 ---
 
-## 🧪 Future Enhancements
-
-- Add **filter by genre/year/actor**
-- Enable **user rating feedback** for recommendations
-- Include **sentiment analysis on user reviews**
-- Improve ranking using **hybrid models (content + collaborative)**
-
----
-
 ## 🛠️ Tech Stack
 
 - **Python**  
-- **Pandas**, **NumPy**  
+- **Pandas**
 - **spaCy** (for NLP)  
 - **scikit-learn** (for vectorization & cosine similarity)  
 - **Streamlit** (for web UI)  
 - **TMDB API** (for movie metadata & posters)
-
----
-
-## 📷 Sample Screenshot
-
-> *(Add a screenshot here of your Streamlit app once deployed)*
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/FlickFinder.git
-cd FlickFinder
-```
-
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Download spaCy Model
-```bash
-python -m spacy download en_core_web_sm
-```
-
-### 4. Add your TMDB API Key
-Edit the script and insert your key:
-```python
-TMDB_API_KEY = 'your_api_key_here'
-```
-
-### 5. Run the Streamlit App
-```bash
-streamlit run app.py
-```
 
 ---
 
@@ -169,15 +125,8 @@ streamlit run app.py
 
 ---
 
-## 📫 Contact
+## ✅ Conclusion
 
-**Created by:** Jubair (Jubi)  
-**Email:** [add your email here if needed]  
-**LinkedIn / GitHub:** [add your links if you want]
+Through this project, I learned how to build a complete end-to-end movie recommendation system using NLP and real-world APIs. I understood the importance of preprocessing steps like lemmatization and combining relevant metadata into a single text representation. I also experimented with different vectorization techniques and discovered why CountVectorizer worked better than TF-IDF for this use case. While trying out weighting techniques, I realized that not all ideas improve performance, and it's okay to discard them after testing. Integrating the TMDB API helped me learn how to work with external APIs and fetch dynamic content like posters and movie details. Streamlit made it easy to build an interactive and user-friendly web app. Finally, I learned how to handle fallback cases gracefully when the API fails. This project strengthened my skills in NLP, feature engineering, API handling, and web app deployment — and gave me the confidence to build more real-world AI tools.
 
----
 
-Enjoy discovering your next favorite film! 🍿✨
-
-```
-````
